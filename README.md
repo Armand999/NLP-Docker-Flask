@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 # Lancer l'API :
 
-flask run --port=5000
+flask run --port=4000
 
 
 # pour améliorer l'API on peut rajouter une image mongoDB pour gérer une base de données des tweets
