@@ -10,7 +10,7 @@
 
 docker build -t mynlpmodelflask:v1 .
 
-# Construire l'image docker  :
+# lancer l'image docker  :
 
 docker run -d -p 5000:4000 --name nlpmodel mynlpmodelflask:v1
 
@@ -27,5 +27,5 @@ flask run --port=5000
 
 # pour améliorer l'API on peut rajouter une image mongoDB pour gérer une base de données des tweets
 # On peut même ajouter des utilisateurs à la base de données
-# On peut ajouter aussi un volume qui va permettre d'echanger des données entre conteneur  
+# On peut ajouter aussi un volume qui va permettre d'echanger des données entre conteneur 
 
