@@ -14,6 +14,9 @@ docker build -t mynlpmodelflask:v1 .
 
 docker run -d -p 5000:4000 --name nlpmodel mynlpmodelflask:v1
 
+# pour le serveur web simple nous avons utilisé une image hub: frolvlad/alpine-python-machinelearning:latest
+# en lançant la commande : docker pull frolvlad/alpine-python-machinelearning à partir de Dockerfile
+
 
 # API initialization dans app.py
 # Dans un terminale on peut installer les dependence :
