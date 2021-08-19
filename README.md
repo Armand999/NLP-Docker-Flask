@@ -29,6 +29,6 @@ flask run --port=4000
 
 
 # pour améliorer l'API on peut rajouter une image mongoDB pour gérer une base de données des tweets
-# On peut même ajouter des utilisateurs à la base de données
+# On peut même ajouter des utilisateurs à la base de données et améliorer les performance du modèle
 # On peut ajouter aussi un volume qui va permettre d'echanger des données entre conteneur 
 
